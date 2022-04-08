@@ -1,0 +1,7 @@
+[character]
+success_symbol = "🦄"
+error_symbol = "🐴"
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false

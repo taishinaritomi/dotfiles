@@ -1,0 +1,39 @@
+{
+  "css.validate": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs":"active",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "javascript.format.enable": false,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "nest",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 14
+}

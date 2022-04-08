@@ -1,0 +1,9 @@
+[user]
+	name = taishinaritomi
+	email = taishinaritomi@gmail.com
+[core]
+	editor = code --wait
+[merge]
+	ff = false
+[pull]
+	rebase = merges
