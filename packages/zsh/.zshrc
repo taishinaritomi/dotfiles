@@ -20,5 +20,6 @@ alias dc='docker-compose'
 alias dcup='docker-compose up -d'
 alias dcup-dev='docker-compose -f docker-compose.dev.yml up -d'
 alias dcdown="docker-compose down --rmi all --volumes --remove-orphans"
+alias dcex="(){docker-compose exec $1 ash -c $2}"
 alias ll='ls -l'
 alias la='ls -a'
