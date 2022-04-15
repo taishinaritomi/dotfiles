@@ -8,7 +8,7 @@
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
-  "editor.guides.bracketPairs":"active",
+  "editor.guides.bracketPairs": "active",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
@@ -35,5 +35,9 @@
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.tree.indent": 14
+  "workbench.tree.indent": 14,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.git": false
+  }
 }
