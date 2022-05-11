@@ -3,6 +3,7 @@
 	email = taishinaritomi@gmail.com
 [core]
 	editor = code --wait
+	ignorecase = false
 [merge]
 	ff = false
 [pull]
