@@ -10,10 +10,10 @@ find ~/.config &>/dev/null || cd ~ && mkdir -p .config
 
 brew bundle -v --file=~/dotfiles/packages/brew/.Brewfile
 
-for file in ~/.zshrc ~/.gitconfig ~/.config/starship.toml ~/.Brewfile ; do
+for file in ~/.zshrc ~/.gitconfig ~/.config/starship.toml ~/.Brewfile ~/.tool-versions ~/.vscode_extensions ; do
   rm -rf "${file}"
 done
-stow -v -d ~/dotfiles/packages -t ~ zsh git starship brew vscode_extensions kitty
+stow -v -d ~/dotfiles/packages -t ~ zsh git starship brew vscode_extensions kitty asdf
 
 grep -c -q '/usr/local/bin/zsh' /etc/shells &>/dev/null || {
   sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"

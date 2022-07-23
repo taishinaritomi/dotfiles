@@ -1,5 +1,7 @@
 eval "$(starship init zsh)"
 
+. /usr/local/opt/asdf/libexec/asdf.sh
+
 if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
