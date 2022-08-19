@@ -1,4 +1,7 @@
+bradlc.vscode-tailwindcss
+dbaeumer.vscode-eslint
 eamodio.gitlens
+esbenp.prettier-vscode
 GitHub.github-vscode-theme
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
@@ -8,3 +11,5 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 oderwat.indent-rainbow
 PKief.material-icon-theme
+streetsidesoftware.code-spell-checker
+wix.vscode-import-cost
