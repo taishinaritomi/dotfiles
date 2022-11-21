@@ -1,4 +1,5 @@
 bradlc.vscode-tailwindcss
+bungcip.better-toml
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
@@ -9,7 +10,9 @@ ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.remote-explorer
 oderwat.indent-rainbow
 PKief.material-icon-theme
+rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
 wix.vscode-import-cost
