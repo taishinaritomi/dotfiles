@@ -45,6 +45,6 @@
     "**/.next": true,
     "**/dist": true,
     "**/.DS_Store": true,
-    "**/.yarn.lock": true
+    "**/yarn.lock": true
   }
 }

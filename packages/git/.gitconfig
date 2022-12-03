@@ -8,3 +8,7 @@
 	ff = false
 [pull]
 	rebase = merges
+[alias]
+    ch = checkout
+    br = branch
+    me = merge
