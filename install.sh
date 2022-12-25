@@ -23,6 +23,7 @@ grep -c -q '/usr/local/bin/zsh' /etc/shells &>/dev/null || {
 find ~/Library/Application\ Support/Code/User &>/dev/null || cd ~ && mkdir -p ~/Library/Application\ Support/Code/User
 rm -rf ~/Library/Application\ Support/Code/User/settings.json
 rm -rf ~/Library/Application\ Support/Code/User/keybindings.json
+rm -rf ~/Library/Application\ Support/Code/User/snippets
 stow -v -d ~/dotfiles/packages -t ~/Library/Application\ Support/Code/User/ vscode
 cat ~/dotfiles/packages/vscode_extensions/.vscode_extensions | while read line
 do

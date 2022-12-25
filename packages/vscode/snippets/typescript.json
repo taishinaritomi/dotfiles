@@ -1,0 +1,17 @@
+{
+  "benny": {
+    "prefix": "benny",
+    "body": [
+        "import { suite, add, cycle, complete } from \"benny\";",
+        "",
+        "suite(",
+        "  \"Benchmark\",",
+        "  add(\"\", () => {}),",
+        "  cycle(),",
+        "  complete(),",
+        ");",
+        ""
+    ],
+    "description": ""
+  }
+}
