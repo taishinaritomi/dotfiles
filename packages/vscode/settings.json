@@ -46,5 +46,9 @@
     "**/dist": true,
     "**/.DS_Store": true,
     "**/yarn.lock": true
-  }
+  },
+  "cSpell.userWords": [
+    "Naritomi",
+    "Taishi"
+  ]
 }
