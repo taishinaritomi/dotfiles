@@ -43,10 +43,11 @@
   "search.exclude": {
     "**/.git": true,
     "**/.next": true,
+    "**/.turbo": true,
     "**/dist": true,
+    "**/target": true,
     "**/.DS_Store": true,
-    "**/yarn.lock": true,
-    "**/target": true
+    "**/*.lock": true
   },
   "cSpell.userWords": [
     "Naritomi",
