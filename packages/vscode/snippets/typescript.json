@@ -2,14 +2,28 @@
   "benny": {
     "prefix": "benny",
     "body": [
-        "import { suite, add, cycle, complete } from \"benny\";",
+        "import { suite, add, cycle, complete } from 'benny';",
         "",
         "suite(",
-        "  \"Benchmark\",",
-        "  add(\"\", () => {}),",
+        "  'Benchmark',",
+        "  add('', () => {}),",
         "  cycle(),",
         "  complete(),",
         ");",
+        ""
+    ],
+    "description": ""
+  },
+  "vitest": {
+    "prefix": "benny",
+    "body": [
+        "import { describe, it, expect } from 'vitest';",
+        "",
+        "describe('', () => {",
+        "  it('', () => {",
+        "    expect(0).toEqual(0)",
+        "  });",
+        "});",
         ""
     ],
     "description": ""
