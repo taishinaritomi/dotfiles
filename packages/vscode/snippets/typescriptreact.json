@@ -15,7 +15,7 @@
     "description": ""
   },
   "vitest": {
-    "prefix": "benny",
+    "prefix": "vitest",
     "body": [
         "import { describe, it, expect } from 'vitest';",
         "",
