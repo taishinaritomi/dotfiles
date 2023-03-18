@@ -10,8 +10,9 @@ ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.hexeditor
 ms-vscode.remote-explorer
-oderwat.indent-rainbow
+ms-vscode.remote-server
 PKief.material-icon-theme
 rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
