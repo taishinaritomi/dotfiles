@@ -49,5 +49,8 @@
     "**/.DS_Store": true,
     "**/*.lock": true
   },
-  "cSpell.userWords": ["Naritomi", "Taishi"]
+  "cSpell.userWords": [
+    "Naritomi",
+    "Taishi"
+  ]
 }
