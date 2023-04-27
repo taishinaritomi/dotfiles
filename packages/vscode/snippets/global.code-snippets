@@ -1,5 +1,14 @@
 {
-  "benny": {
+  "export-all": {
+    "scope": "javascript,typescript",
+    "prefix": "export",
+    "body": [
+      "export * from '$2';"
+    ],
+    "description": ""
+  },
+  "benny-benchmark": {
+    "scope": "javascript,typescript",
     "prefix": "benny",
     "body": [
         "import { suite, add, cycle, complete } from 'benny';",
@@ -14,7 +23,8 @@
     ],
     "description": ""
   },
-  "vitest": {
+  "vitest-test": {
+    "scope": "javascript,typescript",
     "prefix": "vitest",
     "body": [
         "import { describe, it, expect } from 'vitest';",
