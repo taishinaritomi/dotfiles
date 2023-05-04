@@ -4,15 +4,7 @@ dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
 GitHub.github-vscode-theme
-ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
-ms-vscode-remote.remote-containers
-ms-vscode-remote.remote-ssh
-ms-vscode-remote.remote-wsl
-ms-vscode-remote.vscode-remote-extensionpack
-ms-vscode.hexeditor
-ms-vscode.remote-explorer
-ms-vscode.remote-server
 oderwat.indent-rainbow
 PKief.material-icon-theme
 rust-lang.rust-analyzer

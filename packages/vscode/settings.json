@@ -4,6 +4,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
@@ -47,7 +48,8 @@
     "**/dist": true,
     "**/target": true,
     "**/.DS_Store": true,
-    "**/*.lock": true
+    "**/*.lock": true,
+    "**/*-lock.*": true
   },
   "cSpell.userWords": [
     "Naritomi",
