@@ -1,5 +1,9 @@
 [
   {
+    "key": "cmd+shift+R",
+    "command": "workbench.action.reloadWindow"
+  },
+  {
     "key": "cmd+`",
     "command": "explorer.newFile"
   },
