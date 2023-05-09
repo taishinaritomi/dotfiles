@@ -29,6 +29,7 @@
   "typescript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "markdown-preview-github-styles.darkTheme": "dark_dimmed",
   "material-icon-theme.activeIconPack": "nest",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
