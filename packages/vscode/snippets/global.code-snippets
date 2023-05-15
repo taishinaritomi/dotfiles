@@ -5,6 +5,16 @@
     "body": ["export * from '$1';"],
     "description": ""
   },
+    "js-doc": {
+    "scope": "javascript,typescript",
+    "prefix": "/",
+    "body": [
+      "/**",
+      " * $1",
+      " */"
+    ],
+    "description": ""
+  },
   "log": {
     "scope": "javascript,typescript",
     "prefix": "log",
