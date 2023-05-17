@@ -15,15 +15,6 @@
     ],
     "description": ""
   },
-  "log": {
-    "scope": "javascript,typescript",
-    "prefix": "log",
-    "body": [
-      "console.log('$1', $1)",
-      "$2"
-    ],
-    "description": ""
-  },
   "timer": {
     "scope": "javascript,typescript",
     "prefix": "timer",
