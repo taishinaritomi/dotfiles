@@ -1,22 +1,38 @@
 {
   "export-all": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "export",
     "body": ["export * from '$1';"],
     "description": ""
   },
-    "js-doc": {
-    "scope": "javascript,typescript",
+  "js-doc": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "/",
+    "body": ["/**", " * $1", " */"],
+    "description": ""
+  },
+  "IIFE": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "()",
     "body": [
-      "/**",
-      " * $1",
-      " */"
+      "(() => {",
+      "  $1",
+      "})()"
+    ],
+    "description": ""
+  },
+  "IIFE-async": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "()",
+    "body": [
+      "(async () => {",
+      "  $1",
+      "})()"
     ],
     "description": ""
   },
   "timer": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "timer",
     "body": [
       "function timer() {",
@@ -27,17 +43,27 @@
     "description": ""
   },
   "wait": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,javascriptreact",
+    "prefix": "wait",
+    "body": [
+      "function wait(time) {",
+      "  new Promise((r) => setTimeout(r, time));",
+      "}"
+    ],
+    "description": ""
+  },
+  "wait-ts": {
+    "scope": "typescript,typescriptreact",
     "prefix": "wait",
     "body": [
       "function wait(time: number) {",
-      "  return new Promise((r) => setTimeout(r, time));",
+      "  new Promise((r) => setTimeout(r, time));",
       "}"
     ],
     "description": ""
   },
   "benny-benchmark": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "benny",
     "body": [
       "import { suite, add, cycle, complete } from 'benny';",
@@ -53,7 +79,7 @@
     "description": ""
   },
   "vitest-test": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "vitest",
     "body": [
       "import { describe, it, expect } from 'vitest';",
