@@ -33,6 +33,7 @@
   "material-icon-theme.activeIconPack": "nest",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.defaultProfile.osx": "fish",
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
