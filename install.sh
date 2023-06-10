@@ -7,6 +7,8 @@ killall Finder
 
 find . -name ".DS_Store" | xargs rm
 
+which xcode-select &>/dev/null || xcode-select --install
+
 which brew &>/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 find ~/dotfiles &>/dev/null || git clone git@github.com:taishinaritomi/dotfiles.git
