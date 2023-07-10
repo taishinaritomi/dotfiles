@@ -5,10 +5,13 @@ dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
 GitHub.github-vscode-theme
+github.vscode-github-actions
 MS-CEINTL.vscode-language-pack-ja
 oderwat.indent-rainbow
 PKief.material-icon-theme
+pomdtr.excalidraw-editor
 rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
+styled-components.vscode-styled-components
 wix.vscode-import-cost
 yoavbls.pretty-ts-errors
