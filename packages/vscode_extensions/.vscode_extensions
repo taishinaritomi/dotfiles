@@ -1,6 +1,5 @@
 bierner.markdown-preview-github-styles
 bradlc.vscode-tailwindcss
-bungcip.better-toml
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
@@ -13,5 +12,6 @@ pomdtr.excalidraw-editor
 rust-lang.rust-analyzer
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
+tamasfe.even-better-toml
 wix.vscode-import-cost
 yoavbls.pretty-ts-errors
