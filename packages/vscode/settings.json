@@ -5,6 +5,9 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
