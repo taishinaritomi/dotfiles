@@ -34,6 +34,8 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "markdown-preview-github-styles.darkTheme": "dark_dimmed",
   "material-icon-theme.activeIconPack": "nest",
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.check.command": "clippy",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "terminal.integrated.defaultProfile.osx": "fish",
