@@ -9,7 +9,7 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": "active",
@@ -58,5 +58,6 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": ["Naritomi", "Taishi"]
+  "cSpell.userWords": ["Naritomi", "Taishi"],
+  "typescript.tsserver.log": "verbose"
 }
