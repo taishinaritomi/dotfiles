@@ -5,8 +5,6 @@ cd ~
 defaults write com.apple.desktopservices DSDontWriteNetworkStores True
 killall Finder
 
-find . -name ".DS_Store" | xargs rm
-
 which xcode-select &>/dev/null || xcode-select --install
 
 which brew &>/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -17,10 +15,10 @@ find ~/.config &>/dev/null || cd ~ && mkdir -p .config
 
 brew bundle -v --file=~/dotfiles/packages/brew/.Brewfile
 
-for file in ~/.config/config.fish  ~/.gitconfig ~/.config/starship.toml ~/.Brewfile ~/.tool-versions ~/.vscode_extensions ; do
+for file in ~/.config/config.fish  ~/.gitconfig ~/.config/starship.toml ~/.Brewfile ~/.tool-versions ; do
   rm -rf "${file}"
 done
-stow -v -d ~/dotfiles/packages -t ~ fish git starship brew vscode_extensions kitty asdf
+stow -v -d ~/dotfiles/packages -t ~ fish git starship brew kitty asdf
 
 grep -c -q '/usr/local/bin/fish' /etc/shells &>/dev/null || {
   sudo sh -c "echo '/usr/local/bin/fish' >> /etc/shells"
@@ -32,7 +30,3 @@ rm -rf ~/Library/Application\ Support/Code/User/settings.json
 rm -rf ~/Library/Application\ Support/Code/User/keybindings.json
 rm -rf ~/Library/Application\ Support/Code/User/snippets
 stow -v -d ~/dotfiles/packages -t ~/Library/Application\ Support/Code/User/ vscode
-cat ~/dotfiles/packages/vscode_extensions/.vscode_extensions | while read line
-do
-  code --install-extension $line
-done
