@@ -39,6 +39,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "terminal.integrated.defaultProfile.osx": "fish",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -58,6 +59,5 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": ["Naritomi", "Taishi"],
-  "typescript.tsserver.log": "verbose"
+  "cSpell.userWords": ["Naritomi", "Taishi"]
 }
