@@ -9,6 +9,10 @@ which xcode-select &>/dev/null || xcode-select --install
 
 which brew &>/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+if [ "$(uname -m)" = "arm64" ] ; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
 find ~/dotfiles &>/dev/null || git clone git@github.com:taishinaritomi/dotfiles.git
 
 find ~/.config &>/dev/null || cd ~ && mkdir -p .config
