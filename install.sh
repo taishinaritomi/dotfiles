@@ -24,10 +24,17 @@ for file in ~/.config/config.fish  ~/.gitconfig ~/.config/starship.toml ~/.Brewf
 done
 stow -v -d ~/dotfiles/packages -t ~ fish git starship brew kitty asdf
 
-grep -c -q '/usr/local/bin/fish' /etc/shells &>/dev/null || {
-  sudo sh -c "echo '/usr/local/bin/fish' >> /etc/shells"
-  chsh -s '/usr/local/bin/fish'
+if [[ $(uname -m) == "arm64" ]]; then
+    FISH_PATH="/opt/homebrew/bin/fish"
+else
+    FISH_PATH="/usr/local/bin/fish"
+fi
+
+grep -c -q $FISH_PATH /etc/shells &>/dev/null || {
+  sudo sh -c "echo $FISH_PATH >> /etc/shells"
 }
+
+chsh -s $FISH_PATH
 
 find ~/Library/Application\ Support/Code/User &>/dev/null || cd ~ && mkdir -p ~/Library/Application\ Support/Code/User
 rm -rf ~/Library/Application\ Support/Code/User/settings.json
