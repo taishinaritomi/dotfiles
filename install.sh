@@ -23,7 +23,7 @@ find ~/.config &>/dev/null || cd ~ && mkdir -p .config
 for file in ~/.config/config.fish  ~/.gitconfig ~/.config/starship.toml ~/.Brewfile ~/.tool-versions ; do
   rm -rf "${file}"
 done
-stow -v -d ~/dotfiles/packages -t ~ fish git starship brew kitty asdf
+stow -v -d ~/dotfiles/packages -t ~ fish git starship brew asdf
 
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 find "$VSCODE_USER_DIR" &>/dev/null || mkdir -p "$VSCODE_USER_DIR"

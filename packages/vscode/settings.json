@@ -2,7 +2,7 @@
   "css.validate": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[rust]": {
@@ -45,7 +45,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 8,
-  "diffEditor.ignoreTrimWhitespace": false,
   "files.exclude": {
     "**/.git": false
   },
@@ -59,5 +58,5 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": ["Naritomi", "Taishi"]
+  "cSpell.userWords": ["dealloc", "Naritomi", "Taishi"]
 }
