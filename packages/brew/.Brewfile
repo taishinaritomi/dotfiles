@@ -19,7 +19,6 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "linearmouse"
 cask "visual-studio-code"
-cask "wave"
 mas "Xcode", id: 497799835
 vscode "azdavis.ungrammar"
 vscode "bierner.markdown-preview-github-styles"
