@@ -1,6 +1,6 @@
-nodejs 20.9.0
+nodejs 20.10.0
 yarn 1.22.19
-bun 0.1.7
+bun 1.0.20
 deno 1.24.3
-rust 1.74.0
-pnpm 8.5.1
+rust 1.74.1
+pnpm 8.13.1
