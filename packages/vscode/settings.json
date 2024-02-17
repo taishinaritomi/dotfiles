@@ -58,5 +58,10 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": ["dealloc", "Naritomi", "Taishi"]
+  "cSpell.userWords": [
+    "dealloc",
+    "Naritomi",
+    "Taishi"
+  ],
+  "editor.accessibilitySupport": "off"
 }
