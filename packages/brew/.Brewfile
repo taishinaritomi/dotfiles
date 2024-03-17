@@ -20,6 +20,7 @@ cask "firefox"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "google-chrome"
+cask "logi-options-plus"
 cask "visual-studio-code"
 mas "Xcode", id: 497799835
 vscode "azdavis.ungrammar"
