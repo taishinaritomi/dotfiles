@@ -1,8 +1,11 @@
 {
   "css.validate": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[rust]": {
@@ -27,6 +30,7 @@
   },
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "github.copilot.editor.enableAutoCompletions": true,
   "javascript.format.enable": false,
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
@@ -58,10 +62,5 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": [
-    "dealloc",
-    "Naritomi",
-    "Taishi"
-  ],
-  "editor.accessibilitySupport": "off"
+  "cSpell.userWords": ["dealloc", "Himo", "Naritomi", "Nawa", "Taishi"]
 }
