@@ -1,7 +1,5 @@
-nodejs 20.10.0
-yarn 1.22.19
+nodejs 20.16.0
 bun 1.0.20
 deno 1.24.3
 rust 1.80.0
-pnpm 9.2.0
 terraform 1.9.3
