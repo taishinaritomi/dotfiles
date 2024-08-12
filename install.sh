@@ -2,9 +2,6 @@
 
 cd ~
 
-defaults write com.apple.desktopservices DSDontWriteNetworkStores True
-killall Finder
-
 which xcode-select &>/dev/null || xcode-select --install
 
 which brew &>/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
