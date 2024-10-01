@@ -62,5 +62,12 @@
     "**/*.lock": true,
     "**/*-lock.*": true
   },
-  "cSpell.userWords": ["dealloc", "Himo", "Naritomi", "Nawa", "Taishi"]
+  "cSpell.userWords": [
+    "dealloc",
+    "Himo",
+    "Nawa",
+    "kanpai",
+    "Naritomi",
+    "Taishi"
+  ]
 }
