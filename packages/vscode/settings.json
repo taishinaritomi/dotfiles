@@ -42,7 +42,7 @@
   "rust-analyzer.check.command": "clippy",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,

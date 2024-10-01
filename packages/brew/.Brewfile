@@ -44,6 +44,7 @@ cask "logi-options+"
 cask "raycast"
 cask "realforce"
 cask "visual-studio-code"
+cask "wezterm"
 cask "zed"
 mas "Xcode", id: 497799835
 vscode "azdavis.ungrammar"
