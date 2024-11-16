@@ -27,3 +27,5 @@ grep -c -q $ZSH_PATH /etc/shells &>/dev/null || {
 }
 
 chsh -s $ZSH_PATH
+
+mise install

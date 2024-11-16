@@ -1,7 +1,5 @@
 tap "armmbed/formulae"
 tap "homebrew/bundle"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
 brew "asdf"
 brew "gh"
 brew "git"
