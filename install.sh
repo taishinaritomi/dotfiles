@@ -14,17 +14,11 @@ find ~/dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfi
 
 brew bundle -v --file=~/dotfiles/packages/brew/.Brewfile
 
-stow --adopt -v -d ~/dotfiles/packages -t ~ fish git starship brew asdf sheldon zsh wezterm
+stow --adopt -v -d ~/dotfiles/packages -t ~ git starship brew asdf sheldon zsh
 
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 
 stow --adopt -v -d ~/dotfiles/packages -t "$VSCODE_USER_DIR" vscode
-
-FISH_PATH=$(which fish)
-
-grep -c -q $FISH_PATH /etc/shells &>/dev/null || {
-  sudo sh -c "echo $FISH_PATH >> /etc/shells"
-}
 
 ZSH_PATH=$(which zsh)
 
