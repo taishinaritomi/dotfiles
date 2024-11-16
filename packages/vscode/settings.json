@@ -46,7 +46,7 @@
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-frappe",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 8,
   "files.exclude": {
