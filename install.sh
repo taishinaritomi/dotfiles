@@ -10,15 +10,15 @@ if [ "$(uname -m)" = "arm64" ] ; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-find ~/dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfiles.git
+find ~/Dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfiles.git
 
-brew bundle -v --file=~/dotfiles/packages/brew/.Brewfile
+brew bundle -v --file=~/Dotfiles/packages/brew/.Brewfile
 
-stow --adopt -v -d ~/dotfiles/packages -t ~ git starship brew sheldon zsh mise
+stow --adopt -v -d ~/Dotfiles/packages -t ~ git starship brew sheldon zsh mise
 
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 
-stow --adopt -v -d ~/dotfiles/packages -t "$VSCODE_USER_DIR" vscode
+stow --adopt -v -d ~/Dotfiles/packages -t "$VSCODE_USER_DIR" vscode
 
 ZSH_PATH=$(which zsh)
 
