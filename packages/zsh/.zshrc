@@ -1,7 +1,6 @@
 eval "$(starship init zsh)"
 eval "$(sheldon source)"
-
-. $(brew --prefix asdf)/libexec/asdf.sh
+eval "$(mise activate zsh)"
 
 autoload -Uz compinit
 compinit

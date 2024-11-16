@@ -1,0 +1,5 @@
+[tools]
+node = "22"
+terraform = "latest"
+pnpm = "latest"
+rust = "latest"

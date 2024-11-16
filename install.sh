@@ -14,7 +14,7 @@ find ~/dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfi
 
 brew bundle -v --file=~/dotfiles/packages/brew/.Brewfile
 
-stow --adopt -v -d ~/dotfiles/packages -t ~ git starship brew asdf sheldon zsh
+stow --adopt -v -d ~/dotfiles/packages -t ~ git starship brew sheldon zsh mise
 
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 
