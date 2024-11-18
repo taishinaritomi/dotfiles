@@ -1,1 +1,1 @@
-sudo curl https://raw.githubusercontent.com/taishinaritomi/dotfiles/main/install.sh | sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/taishinaritomi/dotfiles/main/install.sh)"

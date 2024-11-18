@@ -1,4 +1,6 @@
-#!/bin/sh -e
+#!/bin/bash -e
+
+set -u
 
 cd ~
 
