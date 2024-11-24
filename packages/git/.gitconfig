@@ -12,6 +12,8 @@
     ch = checkout
     br = branch
     me = merge
+[init]
+	defaultBranch = main
 
 [credential "https://github.com"]
 	helper =
