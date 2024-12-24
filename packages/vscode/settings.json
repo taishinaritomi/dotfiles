@@ -1,13 +1,12 @@
 {
   "css.validate": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
@@ -63,11 +62,12 @@
     "**/*-lock.*": true
   },
   "cSpell.userWords": [
+    "CITEXT",
     "dealloc",
     "Himo",
-    "Nawa",
     "kanpai",
     "Naritomi",
+    "Nawa",
     "Taishi"
   ]
 }
