@@ -1,0 +1,4 @@
+font-family = "Hack Nerd Font Mono"
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
