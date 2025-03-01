@@ -1,5 +1,6 @@
 [tools]
-node = "22"
-terraform = "latest"
-pnpm = "latest"
-rust = "latest"
+node = "22.14.0"
+terraform = "1.11.0"
+pnpm = "10.5.2"
+rust = "1.85.0"
+bun = "1.2.4"
