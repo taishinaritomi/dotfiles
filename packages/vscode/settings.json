@@ -69,5 +69,9 @@
     "Naritomi",
     "Nawa",
     "Taishi"
-  ]
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "scminput": false
+  }
 }
