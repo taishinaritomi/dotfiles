@@ -1,6 +1,8 @@
 [tools]
-node = "22.14.0"
+node = "24.1.0"
 terraform = "1.11.0"
-pnpm = "10.5.2"
+pnpm = "10.11.0"
 rust = "1.85.0"
 bun = "1.2.4"
+"npm:@anthropic-ai/claude-code" = "1.0.35"
+"npm:@google/gemini-cli" = "0.1.7"
