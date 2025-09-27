@@ -12,6 +12,9 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
