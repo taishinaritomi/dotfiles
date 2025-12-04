@@ -1,5 +1,4 @@
 tap "armmbed/formulae"
-tap "homebrew/bundle"
 tap "stripe/stripe-cli"
 brew "git"
 brew "asdf"
