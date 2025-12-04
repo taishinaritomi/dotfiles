@@ -12,7 +12,7 @@ if [ "$(uname -m)" = "arm64" ] ; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-find ~/Dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfiles.git
+find ~/Dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfiles.git ~/Dotfiles
 
 brew bundle -v --file=~/Dotfiles/packages/brew/.Brewfile
 
