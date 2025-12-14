@@ -1,4 +1,6 @@
 {
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "last",
   "css.validate": false,
   "docker.extension.enableComposeLanguageServer": false,
   "diffEditor.ignoreTrimWhitespace": false,
