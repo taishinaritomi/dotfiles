@@ -1,6 +1,6 @@
 tap "armmbed/formulae"
-tap "homebrew/bundle"
 tap "stripe/stripe-cli"
+brew "atuin"
 brew "cocoapods"
 brew "gh"
 brew "git"
