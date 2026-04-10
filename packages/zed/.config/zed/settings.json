@@ -1,0 +1,46 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "ui_font_family": "Adwaita Sans",
+  "ui_font_weight": 400.0,
+  "title_bar": {
+    "show_branch_icon": true,
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+    "codex-acp": {
+      "type": "registry",
+    },
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "terminal": {
+    "font_family": "Hack Nerd Font",
+  },
+  "buffer_font_family": "Fira Code",
+  "icon_theme": "Catppuccin Macchiato",
+  "ui_font_size": 14.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Macchiato",
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+}
