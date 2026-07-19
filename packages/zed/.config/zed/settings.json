@@ -13,7 +13,7 @@
   "ui_font_family": "Adwaita Sans",
   "ui_font_weight": 400.0,
   "title_bar": {
-    "show_branch_icon": true,
+    "show_branch_status_icon": true
   },
   "agent_servers": {
     "github-copilot-cli": {
