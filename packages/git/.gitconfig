@@ -22,5 +22,5 @@
 	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 
-[includeIf "gitdir:~/Developments/oneframe"]
-	path = ~/.gitconfig-2
+[includeIf "hasconfig:remote.*.url:https://github.com/oneframeinc/**"]
+	path = ~/.gitconfig-oneframeinc
