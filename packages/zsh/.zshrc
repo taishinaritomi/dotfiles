@@ -3,9 +3,9 @@ eval "$(sheldon source)"
 eval "$(mise activate zsh)"
 eval "$(atuin init zsh)"
 
-autoload -Uz compinit
+autoload -Uz compinit -u
 
-compinit
+compinit -u
 
 setopt hist_ignore_dups
 setopt hist_ignore_all_dups
