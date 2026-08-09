@@ -30,10 +30,14 @@ brew "vips"
 brew "xcodegen"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Tools for building Android applications
 cask "android-studio"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
