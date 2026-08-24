@@ -56,6 +56,8 @@ cask "ghostty"
 cask "google-chrome"
 # Software for Logitech devices
 cask "logi-options+"
+# Version control
+cask "perforce"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Software for Realforce keyboards and mice
@@ -68,7 +70,6 @@ cask "tableplus"
 cask "visual-studio-code"
 # Multiplayer code editor
 cask "zed"
-mas "Xcode", id: 497799835
 vscode "bierner.markdown-preview-github-styles"
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
