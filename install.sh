@@ -16,15 +16,11 @@ find ~/Dotfiles &>/dev/null || git clone https://github.com/taishinaritomi/dotfi
 
 brew bundle -v --file=~/Dotfiles/packages/brew/.Brewfile
 
-stow --adopt -v -d ~/Dotfiles/packages -t ~ git starship brew sheldon zsh mise ghostty zed ssh
+stow --adopt -v -d ~/Dotfiles/packages -t ~ git starship brew sheldon zsh mise ghostty zed
 
 VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
 
 stow --adopt -v -d ~/Dotfiles/packages -t "$VSCODE_USER_DIR" vscode
-
-ETC_SSH_DIR="/etc/ssh"
-
-sudo stow --adopt -v -d ~/Dotfiles/packages -t "$ETC_SSH_DIR" etc_ssh
 
 ZSH_PATH=$(which zsh)
 
