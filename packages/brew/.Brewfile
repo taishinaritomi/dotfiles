@@ -16,6 +16,8 @@ brew "lazygit"
 brew "mas"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Deep clean and optimize your Mac
+brew "mole"
 # Fast, configurable, shell plugin manager
 brew "sheldon"
 # Cross-shell prompt for astronauts
@@ -70,6 +72,7 @@ cask "tableplus"
 cask "visual-studio-code"
 # Multiplayer code editor
 cask "zed"
+mas "Xcode", id: 497799835
 vscode "bierner.markdown-preview-github-styles"
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
@@ -87,6 +90,7 @@ vscode "ms-azuretools.vscode-docker"
 vscode "ms-ceintl.vscode-language-pack-ja"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
+vscode "openai.codex-audio"
 vscode "prisma.prisma"
 vscode "redhat.vscode-yaml"
 vscode "rust-lang.rust-analyzer"
