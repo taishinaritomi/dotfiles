@@ -12,6 +12,8 @@ brew "git"
 brew "herdr"
 # Simple terminal UI for git commands
 brew "lazygit"
+# LLM inference in C/C++
+brew "llama.cpp"
 # Mac App Store command-line interface
 brew "mas"
 # Polyglot runtime manager (asdf rust clone)
@@ -38,6 +40,10 @@ cask "1password"
 cask "android-studio"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Voice and text chat software
@@ -56,6 +62,10 @@ cask "gcloud-cli"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# AI teammates that work across your apps and tools
+cask "grok-bot"
+# Discover, download, and run local LLMs
+cask "lm-studio"
 # Software for Logitech devices
 cask "logi-options+"
 # Version control
@@ -72,7 +82,6 @@ cask "tableplus"
 cask "visual-studio-code"
 # Multiplayer code editor
 cask "zed"
-mas "Xcode", id: 497799835
 vscode "bierner.markdown-preview-github-styles"
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
