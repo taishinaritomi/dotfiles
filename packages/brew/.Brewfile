@@ -68,6 +68,8 @@ cask "grok-bot"
 cask "lm-studio"
 # Software for Logitech devices
 cask "logi-options+"
+# Get up and running with large language models locally
+cask "ollama-app"
 # Version control
 cask "perforce"
 # Control your tools with a few keystrokes
